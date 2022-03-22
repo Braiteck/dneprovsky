@@ -1,0 +1,253 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------------------
+        Fixed order form
+    ----------------------*/
+    .fixed_order_form .data
+    {
+        width: 360px;
+        padding: 28px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu
+    {
+        width: 292px;
+    }
+
+    #menu .scroll
+    {
+        padding: 40px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .duration
+    {
+        margin-top: 24px;
+    }
+
+
+    .form textarea
+    {
+        height: 82px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*--------------------
+        First section
+    --------------------*/
+    .first_section .col_center .title,
+    .first_section .col_center .title.small
+    {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+
+    .first_section .col_left .desc
+    {
+        width: 160px;
+        max-width: 100%;
+    }
+
+
+    .first_section .img
+    {
+        right: -72px;
+        bottom: -32px;
+
+        width: 285px;
+        height: 404px;
+    }
+
+
+    .first_section .img2
+    {
+        right: -88px;
+        bottom: 46px;
+
+        width: 272px;
+        height: 349px;
+    }
+
+
+    .first_section .bottom
+    {
+        padding: 8px 20px;
+    }
+
+    .first_section .bottom h2
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .first_section .vertical_title
+    {
+        font-size: 100px;
+
+        right: -5px;
+    }
+
+
+
+    /*-------------
+        You get
+    -------------*/
+    .you_get .items
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .items
+    {
+        width: 240px;
+    }
+
+    .reviews .items > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .reviews .photos .row > *
+    {
+        width: calc(33.333% - 8px);
+    }
+
+
+    .reviews .photos .item
+    {
+        padding-bottom: calc(33.333% - 8px);
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program .data
+    {
+        padding: 152px 24px 40px;
+    }
+
+
+
+    /*----------------------
+        Training program
+    ----------------------*/
+    .training_program .data .vertical_title2,
+    .training_program .data .vertical_title
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data
+    {
+        padding: 148px 24px 40px;
+    }
+
+
+
+    /*-------------------------
+        Additional services
+    -------------------------*/
+    .additional_services .row
+    {
+        margin-left: 0;
+    }
+
+    .additional_services .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .additional_services .service .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .socials > *
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+}

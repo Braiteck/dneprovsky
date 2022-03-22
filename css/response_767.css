@@ -1,0 +1,587 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 20px 0 20px 47px;
+    }
+
+
+    .accordion_item .data
+    {
+        margin-top: -8px;
+        padding-bottom: 24px;
+        padding-left: 48px;
+    }
+
+
+
+    /*----------------------
+        Fixed order form
+    ----------------------*/
+    .fixed_order_form
+    {
+        max-height: 100%;
+    }
+
+
+    .fixed_order_form .btn
+    {
+        top: 0;
+        bottom: 0;
+
+        height: 160px;
+        margin: auto;
+    }
+
+
+    .fixed_order_form .data
+    {
+        overflow: auto;
+
+        width: 428px;
+        max-height: 100vh;
+        padding: 32px;
+    }
+
+    .fixed_order_form .block_head .desc
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .phone
+    {
+        width: 100%;
+        margin: 24px 0 0;
+
+        order: 2;
+    }
+
+
+    header .slogan
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 100%;
+        margin: 20px 0 0;
+
+        order: 3;
+    }
+
+    header .slogan br.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    .form .price,
+    .form .duration
+    {
+        width: auto;
+    }
+
+
+    .form .bottom .agree
+    {
+        width: 100%;
+    }
+
+
+    .form .bottom .submit
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .first_section
+    {
+        padding: 12px 0 0;
+    }
+
+
+    .first_section .col_center .title
+    {
+        font-size: 52px;
+        line-height: 64px;
+    }
+
+    .first_section .col_center .title.small
+    {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+
+    .first_section .vertical_title
+    {
+        font-size: 120px;
+
+        top: 40px;
+        right: -6px;
+    }
+
+
+    .first_section .img
+    {
+        right: -88px;
+        bottom: -24px;
+
+        width: 372px;
+        height: 528px;
+    }
+
+    .first_section .img2
+    {
+        right: -80px;
+
+        width: 312px;
+        height: 400px;
+    }
+
+
+    .first_section .bottom h2
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .name
+    {
+        min-height: 0;
+    }
+
+
+
+    /*-------------
+        You get
+    -------------*/
+    .you_get
+    {
+        padding: 60px 0;
+    }
+
+
+    .you_get .block_head
+    {
+        width: 100%;
+    }
+
+
+    .you_get .items
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        About author
+    ------------------*/
+    .about_author .img
+    {
+        top: 352px;
+        left: 50%;
+
+        width: 427px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .about_author .quote
+    {
+        margin-top: 404px;
+    }
+
+    .about_author .quote:before
+    {
+        left: 16px;
+    }
+
+    .about_author .quote:after
+    {
+        right: 16px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .reviews .photos .row
+    {
+        width: calc(100% + 8px);
+    }
+
+
+    .reviews .photos .title
+    {
+        width: 260px;
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program
+    {
+        padding-top: 96px;
+    }
+
+
+    .program .data
+    {
+        padding: 152px 40px 40px;
+    }
+
+
+    .program .message
+    {
+        display: none;
+    }
+
+
+    .program .mob_message
+    {
+        display: flex;
+    }
+
+
+    .program .row
+    {
+        margin-left: 0;
+    }
+
+    .program .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .program .item .desc
+    {
+        width: calc(100% - 72px);
+    }
+
+
+    .program .data > .bg
+    {
+        display: none;
+    }
+
+    .program .data > .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Format
+    ------------*/
+    .format .row,
+    .format .row.two
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .format .row > *,
+    .format .row > *.big_w,
+    .format .row.two > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .format .big_w > *
+    {
+        width: 100%;
+    }
+
+    .format .big_w > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .format .big_w .item .head,
+    .format .big_w .item + .item .head
+    {
+        border-radius: 18px;
+    }
+
+    .format .big_w .item + .item .head:before
+    {
+        display: none;
+    }
+
+
+    .format .item .order_btn
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------------
+        Training program
+    ----------------------*/
+    .training_program .data
+    {
+        padding-bottom: 20px;
+    }
+
+    .training_program .data .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .discount
+    {
+        right: 0;
+        left: 0;
+
+        margin: auto;
+    }
+
+
+
+    .order_block .data
+    {
+        padding: 148px 40px 40px;
+    }
+
+
+
+    /*--------------
+        Bg block
+    --------------*/
+    .bg_block
+    {
+        padding: 80px 0 60px;
+    }
+
+
+
+    /*----------------
+        Bestseller
+    ----------------*/
+    .bestseller
+    {
+        margin-top: 92px;
+        padding-top: 232px;
+    }
+
+
+    .bestseller .info
+    {
+        width: 262px;
+    }
+
+
+    .bestseller .img
+    {
+        top: -112px;
+    }
+
+
+    .bestseller .free
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .bestseller .free .text
+    {
+        margin-top: 0;
+    }
+
+    .bestseller .free .shops
+    {
+        margin-top: 24px;
+
+        justify-content: center;
+        order: 2;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 60px;
+    }
+
+
+    footer .logo
+    {
+        width: auto;
+        margin-bottom: 24px;
+    }
+
+
+    footer .slogan
+    {
+        width: 100%;
+    }
+
+
+    footer .phone
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    footer .program_btn
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .socials
+    {
+        margin-bottom: -40px;
+    }
+
+    footer .socials > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px;
+    }
+
+
+    #success_modal
+    {
+        height: auto;
+    }
+}

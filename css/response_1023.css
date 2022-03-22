@@ -1,0 +1,402 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .slogan
+    {
+        margin-left: 60px;
+    }
+
+
+    header .phone
+    {
+        margin-right: 64px;
+    }
+
+
+
+    /*----------------------
+        Fixed order form
+    ----------------------*/
+    .fixed_order_form .close_btn
+    {
+        right: 12px;
+    }
+
+
+    .fixed_order_form .data
+    {
+        width: 716px;
+        padding: 40px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*--------------------
+        First section
+    --------------------*/
+    .first_section .row
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .first_section .col_left
+    {
+        margin-top: 37px;
+        padding: 0;
+
+        order: 2;
+    }
+
+
+    .first_section .col_center,
+    .first_section .col_left.big + .col_center
+    {
+        margin-left: 0;
+    }
+
+
+    .first_section .img
+    {
+        right: 0;
+    }
+
+    .first_section .img2
+    {
+        right: 0;
+        bottom: 80px;
+    }
+
+
+    .first_section .vertical_title
+    {
+        font-size: 140px;
+
+        top: -24px;
+        right: -7px;
+    }
+
+
+    .first_section .bottom
+    {
+        padding: 20px 24px;
+    }
+
+    .first_section .bottom h2
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------
+        You get
+    -------------*/
+    .you_get .items
+    {
+        width: calc(100% - 256px);
+
+        column-count: 2;
+    }
+
+
+
+    /*------------------
+        About author
+    ------------------*/
+    .about_author
+    {
+        padding-bottom: 0;
+    }
+
+
+    .about_author .img
+    {
+        top: -40px;
+        right: 6%;
+        bottom: auto;
+        left: auto;
+
+        width: 392px;
+        margin-left: 0;
+    }
+
+
+
+    .about_author .quote
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 71px 40px 57px;
+
+        background: var(--bg);
+    }
+
+    .about_author .quote:before
+    {
+        color: #2ee3bb;
+
+        top: -9px;
+        left: 0;
+    }
+
+    .about_author .quote:after
+    {
+        color: #2ee3bb;
+
+        right: 0;
+        bottom: -9px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .items
+    {
+        width: calc(100% + 12px);
+    }
+
+    .reviews .items > *
+    {
+        width: calc(25% - 12px);
+    }
+
+
+    .reviews .photos
+    {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .reviews .photos .row
+    {
+        width: calc(100% - 176px);
+    }
+
+    .reviews .photos .title
+    {
+        width: 160px;
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program .data
+    {
+        padding: 40px 28px;
+    }
+
+
+
+    /*------------
+        Format
+    ------------*/
+    .format .row > *
+    {
+        width: calc(50% - 9px);
+    }
+
+    .format .row > *.big_w
+    {
+        width: calc(100% - 9px);
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .discount
+    {
+        top: -56px;
+        right: 40px;
+        left: auto;
+    }
+
+
+    .order_block .col_main
+    {
+        width: 100%;
+    }
+
+
+    .order_block .col_right
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .order_block .col_right > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Bg block
+    --------------*/
+    .bg_block
+    {
+        padding: 80px 0 72px;
+    }
+
+
+
+    /*-------------------------
+        Additional services
+    -------------------------*/
+    .additional_services .row > *
+    {
+        width: calc(50% - 24px);
+        max-width: calc(50% - 24px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq .accordion
+    {
+        width: 100%;
+        margin-top: -12px;
+    }
+
+
+
+    /*----------------
+        Bestseller
+    ----------------*/
+    .bestseller
+    {
+        margin-top: 124px;
+        padding-top: 124px;
+    }
+
+
+    .bestseller .info
+    {
+        margin-left: 0;
+    }
+
+
+    .bestseller .img
+    {
+        top: -152px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        width: 326px;
+        margin: auto;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 64px;
+    }
+
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    footer .slogan
+    {
+        margin-left: 0;
+    }
+
+
+
+    footer .socials
+    {
+        width: 100%;
+    }
+
+
+
+    footer .links
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
