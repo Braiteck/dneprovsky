@@ -2992,6 +2992,8 @@ header .menu_btn .icon
     top: 0;
     left: -54px;
 
+    display: block;
+
     padding: 23px 23px 23px 17px;
 
     text-transform: uppercase;
