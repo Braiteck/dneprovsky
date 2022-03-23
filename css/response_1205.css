@@ -185,20 +185,19 @@
 
     .first_section .img
     {
-        right: -64px;
+        right: -28px;
+        bottom: 88px;
 
-        width: 484px;
-        height: 686px;
+        width: 440px;
         margin-right: 0;
     }
 
     .first_section .img2
     {
-        right: -48px;
-        bottom: 87px;
+        right: -28px;
+        bottom: 88px;
 
-        width: 384px;
-        height: 492px;
+        width: 360px;
         margin-right: 0;
     }
 

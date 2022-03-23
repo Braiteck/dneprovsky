@@ -54,6 +54,10 @@ $(() => {
 	$('.fixed_order_form .btn, .fixed_order_form .close_btn').click((e) => {
 		e.preventDefault()
 
+		!$('.fixed_order_form').hasClass('show')
+			? $('.overlay').fadeIn(300)
+			: $('.overlay').fadeOut(200)
+
 		$('.fixed_order_form').toggleClass('show')
 	})
 
@@ -80,6 +84,7 @@ $(() => {
 	$('#menu .close_btn, .overlay').click((e) => {
 		e.preventDefault()
 
+		$('.fixed_order_form').removeClass('show')
 		$('header .menu_btn').removeClass('active')
 		$('body').removeClass('menu_open')
 		$('#menu').removeClass('show')

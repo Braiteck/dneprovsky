@@ -197,19 +197,16 @@
 
     .first_section .img
     {
-        right: -88px;
-        bottom: -24px;
+        right: -100px;
 
         width: 372px;
-        height: 528px;
     }
 
     .first_section .img2
     {
-        right: -80px;
+        right: -92px;
 
         width: 312px;
-        height: 400px;
     }
 
 

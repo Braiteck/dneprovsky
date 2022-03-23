@@ -63,6 +63,12 @@
     /*------------------
         Form elements
     ------------------*/
+    .form .price,
+    .form .duration
+    {
+        width: 100%;
+    }
+
     .form .duration
     {
         margin-top: 24px;
@@ -102,21 +108,19 @@
 
     .first_section .img
     {
-        right: -72px;
-        bottom: -32px;
+        right: -64px;
+        bottom: 46px;
 
         width: 285px;
-        height: 404px;
     }
 
 
     .first_section .img2
     {
-        right: -88px;
+        right: -76px;
         bottom: 46px;
 
-        width: 272px;
-        height: 349px;
+        width: 264px;
     }
 
 

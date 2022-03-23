@@ -210,6 +210,7 @@ body.menu_open
     overflow: hidden;
 
     width: 100%;
+    padding-right: var(--scroll_width);
 }
 
 
@@ -302,7 +303,7 @@ button
     width: 100%;
     height: 100%;
 
-    opacity: .3;
+    opacity: .5;
     background: #000;
 }
 
@@ -627,7 +628,7 @@ header .menu_btn .icon
 #menu
 {
     position: fixed;
-    z-index: 101;
+    z-index: 102;
     top: 0;
     right: 0;
 
@@ -654,6 +655,7 @@ header .menu_btn .icon
     color: #f2f2f2;
 
     position: absolute;
+    z-index: 90;
     top: 16px;
     right: 16px;
 
@@ -1296,13 +1298,12 @@ header .menu_btn .icon
     position: absolute;
     z-index: -1;
     right: 50%;
-    bottom: -56px;
+    bottom: 96px;
 
     display: block;
 
-    width: 526px;
-    height: 746px;
-    margin-right: -668px;
+    width: 494px;
+    margin-right: -646px;
 
     pointer-events: none;
 }
@@ -1316,9 +1317,8 @@ header .menu_btn .icon
 
     display: block;
 
-    width: 436px;
-    height: 559px;
-    margin-right: -661px;
+    width: 404px;
+    margin-right: -652px;
 
     pointer-events: none;
 }
@@ -1668,8 +1668,6 @@ header .menu_btn .icon
     margin-left: -352px;
 
     pointer-events: none;
-
-    filter: drop-shadow(0px 4px 200px rgba(0, 0, 0, .25));
 }
 
 
@@ -1775,8 +1773,6 @@ header .menu_btn .icon
     overflow: hidden;
 
     padding-bottom: calc(20% - 8px);
-
-    text-decoration: none;
 
     background: #ddd;
 }
@@ -2970,7 +2966,7 @@ header .menu_btn .icon
 .fixed_order_form
 {
     position: fixed;
-    z-index: 99;
+    z-index: 101;
     top: 50%;
     right: 0;
 

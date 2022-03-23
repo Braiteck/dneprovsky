@@ -3,6 +3,10 @@
     /*-------------------
         Global styles
     -------------------*/
+    body.menu_open
+    {
+        padding: 0;
+    }
 
 
 
@@ -111,11 +115,7 @@
     }
 
 
-    .first_section .img
-    {
-        right: 0;
-    }
-
+    .first_section .img,
     .first_section .img2
     {
         right: 0;
