@@ -2990,7 +2990,7 @@ header .menu_btn .icon
     position: absolute;
     z-index: 1;
     top: 0;
-    right: calc(100% - 6px);
+    left: -54px;
 
     padding: 23px 23px 23px 17px;
 
